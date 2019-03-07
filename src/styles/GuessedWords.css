@@ -1,0 +1,20 @@
+.guessed-words, .scoreboard-header, .guessed-word {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 50vw;
+}
+
+.guessed-words {
+  flex-flow: column nowrap;
+}
+
+.scoreboard-header {
+  flex-flow: row nowrap;
+  justify-content: space-evenly;
+}
+
+.guessed-word {
+  flex-flow: row nowrap;
+  justify-content: space-evenly;
+}
